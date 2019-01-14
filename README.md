@@ -10,3 +10,11 @@ Config files to share between devices.
     # Source from davidbarna/config repository
     source ~/dev/config/term/.bash_profile
     ```
+
+## Visual Code
+
+Use [Settings Sync Extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+To download settings, the gist ID is `1bd34453caf5b32453979fc942436ca4`
+
+[View Gist](https://gist.github.com/davidbarna/1bd34453caf5b32453979fc942436ca4)
