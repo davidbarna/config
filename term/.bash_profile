@@ -22,6 +22,16 @@ alias nits="npm install && npm test && npm start"
 alias ns="npm start"
 alias nl="npm link"
 
+
+# GIT aliases
+alias gm="git checkout master && git pull"
+alias gnb="git checkout master && git pull && git checkout -b"
+alias gpo="git push origin HEAD"
+function gco() {
+    git commit -m "$1"
+    git push origin HEAD
+}
+
 # https://github.com/barryclark/bashstrap
 source ${BASH_SOURCE%/*}/.bash_profile_bashtrap
 
