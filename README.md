@@ -5,6 +5,10 @@ Config files to share between devices.
 
 * Emulator: [iTerm2](https://www.iterm2.com/)
 * Clone this repo in `~/dev`
+* Install nvm
+    ```bash
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+    ```
 * Add this to local `~/.bash_profile`
     ```bash
     # Source from davidbarna/config repository
