@@ -1,19 +1,39 @@
 # Config files
+
 Config files to share between devices.
 
 ## Terminal
 
-* Emulator: [iTerm2](https://www.iterm2.com/)
 * Clone this repo in `~/dev`
-* Install nvm
-    ```bash
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-    ```
+* Emulator: [iTerm2](https://www.iterm2.com/)
+
+### bash
 * Add this to local `~/.bash_profile`
-    ```bash
-    # Source from davidbarna/config repository
-    source ~/dev/config/term/.bash_profile
-    ```
+```bash
+source ~/dev/config/shell/bash/.bash_profile
+```
+
+### zsh
+* Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) in ~/.oh-my-zsh
+* Add this to local `~/.zshrc`
+```bash
+source ~/dev/config/shell/zsh/.zshrc
+```
+
+## Install NVM 
+
+```sh
+$ brew update
+$ brew install nvm
+$ mkdir ~/.nvm
+```
+
+In `~/.zshrc` or `~/.bash_profile`: 
+
+```sh
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
 
 ## Visual Code
 
