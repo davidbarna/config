@@ -36,7 +36,7 @@ function gco() {
 source ${BASH_SOURCE%/*}/.bash_profile_bashtrap
 
 # init z! (https://github.com/rupa/z)
-. ${BASH_SOURCE%/*}/z.sh
+# . ${BASH_SOURCE%/*}/z.sh
 
 # init cdnvm
 . ${BASH_SOURCE%/*}/cdnvm.sh

@@ -8,24 +8,28 @@ Config files to share between devices.
 * Emulator: [iTerm2](https://www.iterm2.com/)
 
 ### bash
+
 * Add this to local `~/.bash_profile`
-```bash
+
+```sh
 source ~/dev/config/shell/bash/.bash_profile
 ```
 
 ### zsh
+
 * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) in ~/.oh-my-zsh
 * Add this to local `~/.zshrc`
-```bash
+
+```sh
 source ~/dev/config/shell/zsh/.zshrc
 ```
 
-## Install NVM 
+## Install NVM
 
 ```sh
-$ brew update
-$ brew install nvm
-$ mkdir ~/.nvm
+brew update
+brew install nvm
+mkdir ~/.nvm
 ```
 
 In `~/.zshrc` or `~/.bash_profile`: 
