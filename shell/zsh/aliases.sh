@@ -16,6 +16,7 @@ alias nis="npm install && npm start"
 alias nits="npm install && npm test && npm start"
 alias ns="npm start"
 alias nl="npm link"
+alias sourcetree='open -a SourceTree'
 
 
 # GIT aliases
